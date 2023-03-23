@@ -39,7 +39,7 @@ import axios from "axios";
   }
 
   sendMessage = async (userMessage) => {
-    const openaiEndpoint = 'https://chat.openai.com/chat';
+    const openaiEndpoint = 'https://api.openai.com/v1/chat/completions';
     const openaiApiKey = process.env.REACT_APP_OPENAI_API_KEY;
     const model = 'gpt-3.5-turbo';
     
